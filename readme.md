@@ -3,7 +3,7 @@ Here is a simple script that can be used to convert a colored pdf to grayscale, 
 
 This has been tested on GhostScript version 9.26.
 
-##Install:
+## Install:
 First, you need GhostScript to use this converter.
 If you don't have it already, you can install GhostScript on Ubuntu using 
   > $ sudo apt-get install ghostscript
@@ -13,7 +13,7 @@ You will have to give permissions to execute the file:
  > $ chmod +x colorToGrayScalerPDFConverter.sh
 
 
-##Usage:
+## Usage:
  
 Now, you can use this command:
  > $ colorToBlackAndWhitePDFConverter.sh [input_file.pdf] [output_file.pdf] 
