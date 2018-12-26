@@ -20,10 +20,14 @@ Now, you can use this command:
  
 where input_file.pdf and output_file.pdf are the addresses to the input file, and the output to be created.
 
-You can also set up an alias in your .bashrc:
+You can also set up an alias, by adding to your .bashrc:
 
 > alias colorToGrayScalePDFConverter='~/scripts/colorToBlackAndWhitePDFConverter.sh'
 
 OR
 
 > alias grayscaleConverter='~/scripts/colorToBlackAndWhitePDFConverter.sh'
+
+Then loading the changes using
+
+> source ~/.bashrc
