@@ -17,7 +17,13 @@ You will have to give permissions to execute the file:
  
 Now, you can use this command:
  > $ colorToBlackAndWhitePDFConverter.sh [input_file.pdf] [output_file.pdf] 
+ 
 where input_file.pdf and output_file.pdf are the addresses to the input file, and the output to be created.
 
 You can also set up an alias in your .bashrc:
-alias colorToGrayScalePDFConverter='~/scripts/colorToBlackAndWhitePDFConverter.sh'
+
+> alias colorToGrayScalePDFConverter='~/scripts/colorToBlackAndWhitePDFConverter.sh'
+
+OR
+
+> alias grayscaleConverter='~/scripts/colorToBlackAndWhitePDFConverter.sh'
