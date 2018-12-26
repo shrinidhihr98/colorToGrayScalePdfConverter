@@ -1,0 +1,4 @@
+Here is a simple script that can be used to convert a colored pdf to grayscale, with acceptable loss in the final rendering.
+
+This has been tested on GhostScript version 9.26.
+
